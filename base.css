@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.midia{
+    width: 15%;
+    background-color: rgb(239, 243, 243);
+    padding: 10px 20px 0px;
+ 
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(227, 233, 231);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(239, 243, 243);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(222, 233, 233);
+    min-height: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content {
+   
+    background-color: white;
+    min-height: 15px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(231, 229, 240);
+    min-height: 15px;
+}
